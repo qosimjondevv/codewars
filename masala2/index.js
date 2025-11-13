@@ -26,17 +26,3 @@ function addFive(num) {
   return total;
 } ///✅
 
-// ////////////////////////////////////// 6.
-let x = "ryan";
-function cookie(x) {
-  let names;
-  if (typeof x === "string") {
-    names = "Zach!";
-  } else if (typeof x === "number") {
-    names = "Monica!";
-  } else {
-    names = "the dog!";
-  }
-  return `Who ate the last cookie? It was ${names}`;
-  //❌ jala xato
-}
