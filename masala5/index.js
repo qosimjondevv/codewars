@@ -18,14 +18,19 @@ function convertToCelsius(temperature) {
 
 ////////////////////////////// 3
 
-textbooks.sort(function (a, b) {
-  a = a.toLowerCase();
-  b = b.toLowerCase();
-  if (a < b) return -1;
-  if (a > b) return 1;
-  return 0;
-});
-return textbooks;
+function sorter(textbooks) {
+  console.log(textbooks);
+  textbooks.sort(function (a, b) {
+    a = a.toLowerCase();
+    b = b.toLowerCase();
+    if (a < b) return -1;
+    if (a > b) return 1;
+    return 0;
+  });
+  return textbooks;
+}
+
+console.log();
 
 //   function sorter(arr) {
 //   return arr.sort((a, b) => a.toLowerCase() > b.toLowerCase() ? 1 : -1);
