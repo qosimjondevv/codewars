@@ -13,7 +13,7 @@ function betterThanAverage(classPoints, yourPoints) {
   //   let qoshish = result + yourPoints;
   let bolish = result / classPoints.length;
   if (yourPoints > bolish) return true;
-  if (yourPoints <= bolish) return false; //❌ +-
+  if (yourPoints <= bolish) return false; //✅
   // return yourPoints > classPoints.reduce((a, b) => a + b, 0) / classPoints.length; // qisqasi✅
 }
 betterThanAverage();
